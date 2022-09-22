@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="apply.css">
+  <title>Skillspire Form</title>
+</head>
+  <!-- Nav Bar -->
+  <nav>
+    <img onclick="location.href='/index.html'" src="../images/skillspireLOGO.webp" alt="">
+    <div class="menu-container">
+      <!-- capitalized -->
+      <div class="dropdown">Courses</div>
+      <div class="dropdown">Admissions</div>
+      <div class="dropdown">Events</div>
+      <div class="dropdown">Partners</div>
+      <div class="dropdown">About</div>
+      <div class="dropdown">Stories</div>
+    </div>
+    <button onclick="location.href='./apply/apply.html'" id="applyBtn" class="basicBtn applyBtn">Apply</button>
+  </nav>
+
+  <!-- Heading -->
+  <h1 class="apply-header">Apply for Admissions</h1>
+
+  <!-- Form -->
+  <!-- <div class="form-container"> -->
+    <form action="">
+      <div class="form-navigation">
+        <p class="form-nav-item-active">1 Start Application</p>
+        <p class="form-nav-item">2 Select Program</p>
+        <p class="form-nav-item">3 Your Background</p>
+        <p class="form-nav-item">4 Tell Us About Yourself</p>
+      </div>
+      
+      <label for="firstName">First Name</label>
+      <input
+        name="f-name" 
+        type="text"  
+        id="firstName"
+        placeholder="First Name"
+      >
+      <label for="lastName">Last Name</label>
+      <input
+        name="l-name" 
+        type="text"  
+        id="Last Name"
+        placeholder="Last Name"
+      >
+      <label for="phone">Phone</label>
+      <input
+        name="phone" 
+        type="phone-number"  
+        id="phone"
+        placeholder="123-456-7890"
+      >
+      <label for="">Email</label>
+      <input
+        name="email" 
+        type="email"  
+        id="email"
+        placeholder="Email"
+      >
+      <label class="small-label" for="Street Address">Street Address</label>
+      <input
+        name="street" 
+        type="text"  
+        id="Street Address"
+        placeholder="Street Address"
+      >
+      <label class="small-label" for="City">City</label>
+      <input
+        name="street" 
+        type="text"  
+        id="City"
+        placeholder="City"
+      >
+      <label class="small-label" for="State">State</label>
+      <input
+        name="street" 
+        type="text"  
+        id="State"
+        placeholder="State"
+      >
+      <label class="small-label" for="Poastal Code / ZIP">Poastal Code / ZIP</label>
+      <input
+        name="street" 
+        type="text"  
+        id="Poastal Code / ZIP"
+        placeholder="Poastal Code / ZIP"
+      >
+      <label for="Country">Country</label>
+      <select name="age" id="age">
+        <option value="Unites States">United States</option>
+        <option value="Canada">Canada</option>
+        <option value="Mexico">Mexico</option>
+        <option value="Taiwan">Taiwan</option>
+        <option value="Japan">Japan</option>
+      </select>
+      <hr>
+      <div class="radios-container">
+        <p >Course Desired</p>
+        <br>
+        <input name="Course Desired" type="radio" class="radio-button" >
+        <!-- <br> -->
+        <label for="">Software Engineering</label>
+        <input name="Course Desired" type="radio" class="radio-button">
+        <label for="">Data Analytics</label>
+        <input name="Course Desired" type="radio" class="radio-button">
+        <label for="">Intro To Coding</label>
+      </div>
+      <!-- radio and box inputs -->
+      <p class="optional">Optional</p>
+      <label for="experience"><input type="checkbox"> Prior Coding Experience?</label>
+      
+      <label for="experience"><input type="checkbox"> Need a Payment Plan?</label>
+      
+      <label for="experience"><input type="checkbox"> Own a PC?</label>
+      
+
+      <button class="next basicBtn">Next</button>
+    </form>
+  <!-- </div> -->
+</html>
